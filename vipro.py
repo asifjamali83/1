@@ -12,7 +12,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 vipro = LINETCR.LINE()
 #vipro.login(qr=True)
-vipro.login(token='EpJgyNvzK8xQp88I04t9.2PnOnQMgNRHUYkUzkK6jEq./p92mOc1BPmafZPSgTcw4mkpBeT/czsWHBLRbK7Aewc=')
+vipro.login(token='EAHiaoPnmnea5WX8MBU2.U2/HiZXWViJlVsQuLhuamG.hVInal8sSgf4tHxufNwFIKBbWRFEW1wfYyFc8EqVAIM=')
 vipro.loginResult()
 print "Vipro-Login Success\n\n=====[Sukses Login]====="
 
@@ -49,8 +49,8 @@ selfMessage ="""
 ╠➩〘Micdel @〙
 ╠➩〘Miclist〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : Seha 💠
+║    〽️ line.me/ti/p/~lolilover666 〽️
 ╚═════════════════════════
 """
 
@@ -69,8 +69,8 @@ botMessage ="""
 ╠➩〘@bye〙
 ╠➩〘Bot on/off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : Seha 💠
+║    〽️ line.me/ti/p/~lolilover666 〽️
 ╚═════════════════════════
 """
 
@@ -108,8 +108,8 @@ mediaMessage ="""
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : Seha 💠
+║    〽️ line.me/ti/p/~lolilover666 〽️
 ╚═════════════════════════
 """
 
@@ -143,8 +143,8 @@ groupMessage ="""
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : Seha 💠
+║    〽️ line.me/ti/p/~lolilover666 〽️
 ╚═════════════════════════
 """
 vip="uda936836a9869eb86ec8ab992a4e8979"
@@ -162,8 +162,8 @@ setMessage ="""
 ╠➩〘Sticker on〙
 ╠➩〘Simisimi on/off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : Seha 💠
+║    〽️ line.me/ti/p/~lolilover666 〽️
 ╚═════════════════════════
 """
 
@@ -181,8 +181,8 @@ creatorMessage ="""
 ╠➩〘Bot restart〙
 ╠➩〘Turn off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : Seha 💠
+║    〽️ line.me/ti/p/~lolilover666 〽️
 ╚═════════════════════════
 """
 
@@ -222,8 +222,8 @@ adminMessage ="""
 ╠➩〘Respon3 on/off〙
 ╠➩〘Responkick on/off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : Seha 💠
+║    〽️ line.me/ti/p/~lolilover666 〽️
 ╚═════════════════════════
 """
 
@@ -243,8 +243,8 @@ helpMessage ="""
 ╠➩〘Speed test〙
 ╠➩〘Status〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : Seha 💠
+║    〽️ line.me/ti/p/~lolilover666 〽️
 ╚═════════════════════════
 """
 
@@ -252,8 +252,8 @@ helpMessage ="""
 KAC=[vipro]
 mid = vipro.getProfile().mid
 Bots=[mid]
-Creator=["uda936836a9869eb86ec8ab992a4e8979"]
-admin=["uda936836a9869eb86ec8ab992a4e8979"]
+Creator=["ubb6fa1233c70bc88cbbd2a9494750032"]
+admin=["ubb6fa1233c70bc88cbbd2a9494750032"]
 
 contact = vipro.getProfile()
 backup1 = vipro.getProfile()
@@ -286,7 +286,7 @@ wait = {
     'sticker':False,  
     'timeline':True,
     "Timeline":True,
-    "comment":"Bot Auto Like ©By : Vipro\nContact Me : 👉 line.me/ti/p/~gjxvipro",    
+    "comment":"Bot Auto Like ©By : Seha\nContact Me : 👉 line.me/ti/p/~lolilover666",    
     "commentOn":True,
     "commentBlack":{},
     "message":"Thx For Add Me (^_^)\nInvite Me To Your Group ヘ(^_^)ヘ",    
