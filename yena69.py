@@ -300,12 +300,12 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots = ["u0adc61aa5cd6089012db01c25d72c70c",mid]
-self = ["u0adc61aa5cd6089012db01c25d72c70c",mid]
-admin = "u0adc61aa5cd6089012db01c25d72c70c"
-owner = "u0adc61aa5cd6089012db01c25d72c70c"
-admsa = "u0adc61aa5cd6089012db01c25d72c70c"
-adminMID = "u0adc61aa5cd6089012db01c25d72c70c"
+Bots = ["u35577e52b245ace6deb64e33a301f3b0",mid]
+self = ["u35577e52b245ace6deb64e33a301f3b0",mid]
+admin = "u35577e52b245ace6deb64e33a301f3b0"
+owner = "u35577e52b245ace6deb64e33a301f3b0"
+admsa = "u35577e52b245ace6deb64e33a301f3b0"
+adminMID = "u35577e52b245ace6deb64e33a301f3b0"
 wait = {
     'contact':False,
     'autoJoin':True,
