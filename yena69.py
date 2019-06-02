@@ -26,100 +26,80 @@ from googletrans import Translator
 import time,random,sys,json,codecs,threading,glob,re
 
 #cl = LINETCR.LINE()
-#cl.login(qr=True)
-#cl.login(token="En4KG8n3Axy1dVdjTgBe.F6loN/ws9FaPqFRwqoggJG.jqx0KH2ZLBv5JNpxSPnPE/ACr/7lvOjqYZLvrRB5aEY=")
-#cl.loginResult()
-
-
-#ki = LINETCR.LINE()
-#ki.login(qr=True)
-#ki.login(token="Enmz3AeffNs6Jm9bjdO3.BYv5MSepCurmE04bZMOzaW.C+hWn+qQhF6gP36//9Tcx78HyogXy5DEZ/vK+TS33i0=")
-#ki.loginResult()
-
-#kk = LINETCR.LINE()
-#kk.login(qr=True)
-#kk.login(token="EnD6uojittnb5qqLeEt3.9qPM7NC2vWiRtQTZ/x4SyW.YlhswTQVUjF2mE1Pxg+0goaUHbC6KsjhL7PJUkQ9jqc=")
-#kk.loginResult()
-
-#kc = LINETCR.LINE()
-#kc.login(qr=True)
-#kc.login(token="EnbwtB4NdqZee7Z4dqb8.usk2DxruRb2/eg2IYrqXsa.GXNGIGGPMRMtNQMn/Yej3RCpDp3xiTPcg27NMYjlFRM=")
-#kc.loginResult()
-
-#kd = LINETCR.LINE()
-#kd.login(qr=True)
-#kd.login(token="Enmz3AeffNs6Jm9bjdO3.BYv5MSepCurmE04bZMOzaW.C+hWn+qQhF6gP36//9Tcx78HyogXy5DEZ/vK+TS33i0=")
-#kd.loginResult()
-
-#ke = LINETCR.LINE()
-#ke.login(qr=True)
-#ke.login(token="EnOtD6mnAa3VbT7ckdJc.aYbkAqXV5gf9Eu4MbqlVBa.SKr19sZLlKHExBdDvCO+Xi1MUYzs53wryO28bRdijn4=")
-#ke.loginResult()
-
-#kf = LINETCR.LINE()
-#kf.login(qr=True)
-#kf.login(token="EnglcDa00DaCXyAhkub8.MQvnSQmxLZyecm+cYLEska.B6wvaPOUvoO6TeJ/HSLoduT08oL/Lp+Ts9/qyNtXnv0=")
-#kf.loginResult()
-
-#kg = LINETCR.LINE()
-#kg.login(qr=True)
-#kg.login(token="EnheqLhJWfoutaO6Il24.PwzfHga0YXE729Rxwc5qXa.IJUzESsyxMMtwXP2VLxYHYt2gDcjzLA3+UWzI7nDDmE=")
-#kg.loginResult()
-
-#kh = LINETCR.LINE()
-#kh.login(qr=True)
-#kh.login(token="EnTqV2MY9zSyjnly3PR0.X7ONBO4L4YtA49fO3i6lua.30yYOYb5UU3tY3HibpO/VCTyxwWCxXmC5hZWEYxgsHg=")
-#kh.loginResult()
-
-#kj = LINETCR.LINE()
-#kj.login(qr=True)
-#kj.login(token="EnNNnOcUUuDnBDq04Trf.oVwyNFPWGPJZC00RELiFVW.vBO5ZPqdRgnOlV7pZukedMqNalSdBS463cKRWLPsDnI=")
-#kj.loginResult()
-
-#kl = LINETCR.LINE()
-#kl.login(qr=True)
-#kl.login(token="EnwpfuLGXqIZrkL7m7Aa.4873flXX7QJRw4jo2j7roG.jRjCAigm/xA35AtuxFXs70tLf2F53B9juFI/UOciCKo=")
-#kl.loginResult()
-
-#km = LINETCR.LINE()
-#km.login(qr=True)
-#km.login(token="EnoyYxUZB5Xv7Bl9Ys57.KN6gqRyZQ0iuRiU5jNIj1W.SxC9+Q+ahlwaT+Wz124+tfYzek6HekkdDDqbipYbLrw=")
-#km.loginResult()
-
-#kn = LINETCR.LINE()
-#kn.login(qr=True)
-#kn.login(token="EnoktyaoHcLmCOmoVVq6.xkaL7HAdfdzB4bRIIC04jG.JnqJCQGBclHgL1/eqGsHb9zzylxKDlolWsYUqED9OlU=")
-#kn.loginResult()
-
-#ko = LINETCR.LINE()
-#ko.login(qr=True)
-#ko.login(token="EnwrWLZ64U29Sqha0vre.9lU+Lm8IEAdBW1wrKZGG7G.4Frg+d66MCO+zH3Me73RzaA7WdBFP94nzn8m28O6luI=")
-#ko.loginResult()
-
-#cl = LINETCR.LINE()
-#kp.login(qr=True)
-#cl.login(token="EnwOOwOK4e4Uyu5uyXBa.am5VEhHU3Oh3X2olVwx66G.mQ5Hs2DVNitNFLNKm5INJzlDELTBEm1GhfrcVc2ibsk=")
-#cl.loginResult()
-
-#kq = LINETCR.LINE()
-#kq.login(qr=True)
-#kq.login(token="EniBgK2GUXPoANVBfKpb.tyEjT4SUhBFf7gJV34m+gW.X7qZpyneaItMRP8s+alxBMkzQCtGu/j19Xok/k9/9fA=")
-#kq.loginResult()
-
-cl = LINETCR.LINE()
-#kr.login(qr=True)
-cl.login(token="EngqjAX9djgqsY8BVCOc.cTXHQLZwcjas2Whcxxlhda./6K1IVcI3KrpoWRMMhrBsjbsUPQeQit9hrCTyA0C/Hc=")
+cl.login(token="EFClaj2LaRuITUNNgMY0.nvD/uRjfRoBETK4ZOWhZSa.ttxcfFDhlDp1ym3iLRrhs+CnvKHuReHm01puf8rBC7Q=")
 cl.loginResult()
 
+#ki = LINETCR.LINE()
+ki.login(token="EFkFh3TtGh62xU7NkjLe.yDd/ESRdVqhoxLV9ogigNG.AXqBkysqClJh8s7ta18B2wA84OUy1H71n9ng/7Tkwmo=")
+ki.loginResult()
+
+#kk = LINETCR.LINE()
+kk.login(token="EFu9Hh1URLsQbZnKBYl7.8d+/mNO13JPYidbljC3nvW.n00XvhkKGQpneEVqmvT7iEHxR+CJPs/oxJ50N/Vrpx8=")
+kk.loginResult()
+
+#kc = LINETCR.LINE()
+kc.login(token="EF8afke6xIbrz9zrQhm9.NS79GkjXPX2SeYabibJEAq.kTo1diGfzJRyc8JILa2QkyhE378TLKgYe8SxeUFhZvU=")
+kc.loginResult()
+
+#kd = LINETCR.LINE()
+kd.login(token="EFWGhufW21zxaPAraK34.DEkgt/uG902ZLFOdfK325a.MVAUxFSkWMu6XPN/zIM0mNoHmydW1KOZLAxe27+8Iyg=")
+kd.loginResult()
+
+#ke = LINETCR.LINE()
+ke.login(token="EFKWLTRbTHxTgvNJv7I3.oZKdd6x9QUrxeWqlIqSx8W.fvZ2ydJ21t1mwyrpaiOs0WnfDok407WzcaCZQwtLKfc=")
+ke.loginResult()
+
+#kf = LINETCR.LINE()
+kf.login(token="EFJA9JUz1uDWtTzZduF7.eFLiD/q6XzekkEvsWRD+LW.1Y9FU5tMzOqOphB/Nt73V6bXmbrn9xQh5LgOKBTQJBo=")
+kf.loginResult()
+
+#kg = LINETCR.LINE()
+kg.login(token="EFdVDrpZrFGLbwYDJcNd.FNHorp+JvbRkZyckEPh7tq./S7BwZX7sqQ3vuT8NI7oesfxZXN9h51K/sqJR0VRGvw=")
+kg.loginResult()
+
+#kh = LINETCR.LINE()
+kh.login(token="EF1d8o6RB87ctamKstX4./Coef04cSd1Ymaih+V2ADa.nx3SVWShgUy++0FRO6cz+naKmArXCEYICZqL9dbxr4s=")
+kh.loginResult()
+
+#kj = LINETCR.LINE()
+kj.login(token="EFWgszudgNN6oD4rNhtd.CNZNgt3iUc3fYRhn7Cibxq.TH0GRFirYnBzb4F1K1cduJTmXe1+gbgIMx7Whkb3smM=")
+kj.loginResult()
+
+#kl = LINETCR.LINE()
+kl.login(token="EFG3PKUd5Mntu9eaFBA2.XhCwJBakhq3WIw4uZqu08G.TJyUkJEPWIgjwx2sfIIbzDhjxC6yt+io8jDjR5AJp+8=")
+kl.loginResult()
+
+#km = LINETCR.LINE()
+km.login(token="EFWCvkjaDVQ5eZVVM42a.uA70OmZ6xGXhLjifkBHlgG.s/DcrljK2vI5x7uO4yVXgJ1ehSEPcgjhRXsgTGMNyyY=")
+km.loginResult()
+
+#kn = LINETCR.LINE()
+kn.login(token="EFmkeIqD7k7Dk2BeZ937.4ciXpOp+ngV1ye23dcM5vW.NPXKH780rRnRn8Ll0xvrb7yuUASZoZamGl+BuOpwGq0=")
+kn.loginResult()
+
+#ko = LINETCR.LINE()
+ko.login(token="EFA8a4KnP4LxOOf6LoRb.bAXEGo6vXQI0VRhomlb3MW.MavNXz7bg+Y8XzWyfN14x0PFNgFKgJfPud3SwmTeFTY=")
+ko.loginResult()
+
+#kp = LINETCR.LINE()
+kp.login(token="EFbN8OH9MyxtymETqeZ9.4vNGKfbDYS0efY/RcqAJMq.QgEZVoUpYwMDsdnwOosrY5+K6rU5BYodu5/E17zasfI=")
+kp.loginResult()
+
+#kq = LINETCR.LINE()
+kq.login(token="EFowlIJVXfBDBWBoBTu9.sq7xakrN1v28/yW8CSq42q.YCt86gRQATF6h5+f1o7/jPBmcN8WFaaTmVNuADVJKJg=")
+kq.loginResult()
+
+#kr = LINETCR.LINE()
+kr.login(token="EFiLi8tBIww3AV4Wrzr7.t/IdFcgcW7pVEtQdsL6WzW.jD99s6M3CtQexV34FMStz1DlG39+7tE/jsi8lZ3cKFA=")
+kr.loginResult()
+
 #ks = LINETCR.LINE()
-#ks.login(qr=True)
-#ks.login(token="EnWTfMjpKM0WOkCUDHD4.srjUosW4RgcA0sSjVMH6Ta.Nd374H7hPFi71iCeupORD5lXrCG+Y2j+7xzG8CZHddQ=")
-#ks.loginResult()
+ks.login(token="EFZyXJjaDM0VG53Znpld.JZJ/1Jhb9oyNKqIA+uiyFq.1oGg/5yHXWhjdHHhGJk1STM5Aki/6Fq3+GYQL6/pfqQ=")
+ks.loginResult()
 
 #kt = LINETCR.LINE()
-#kt.login(qr=True)
-#kt.login(token="EnoemlXBtIWaRpxaCEc7.OS/hbTH5Iz2F5McUPTGhfW.b02+CcT2Ell/OZkgzJrKIwuFSWh1vPiM9bDw+YRVpIY=")
-#kt.loginResult()
+kt.login(token="EFKVfeUn9HQvbm5OGzn1.f04Z5tIwN8oo0wvkaqNsqq.D1ZfEQbGMqiTht1kO/cdyHh+M8URJRqABETuBivqeaU=")
+kt.loginResult()
 
 print "U.k kalem Bot"
 reload(sys)
@@ -295,24 +275,24 @@ ______________________________________
 
 KAC=[cl]
 mid = cl.getProfile().mid
-#Amid = ki.getProfile().mid
-#Bmid = kk.getProfile().mid
-#Cmid = kc.getProfile().mid
-#Dmid = kd.getProfile().mid
-#Emid = ke.getProfile().mid
-#Fmid = kf.getProfile().mid
-#Gmid = kg.getProfile().mid
-#Hmid = kh.getProfile().mid
-#Jmid = kj.getProfile().mid
-#Lmid = kl.getProfile().mid
-#Mmid = km.getProfile().mid
-#Nmid = kn.getProfile().mid
-#Omid = ko.getProfile().mid
-#Pmid = kp.getProfile().mid
-#Qmid = kq.getProfile().mid
-#Rmid = kr.getProfile().mid
-#Smid = ks.getProfile().mid
-#Tmid = kt.getProfile().mid
+Amid = ki.getProfile().mid
+Bmid = kk.getProfile().mid
+Cmid = kc.getProfile().mid
+Dmid = kd.getProfile().mid
+Emid = ke.getProfile().mid
+Fmid = kf.getProfile().mid
+Gmid = kg.getProfile().mid
+Hmid = kh.getProfile().mid
+Jmid = kj.getProfile().mid
+Lmid = kl.getProfile().mid
+Mmid = km.getProfile().mid
+Nmid = kn.getProfile().mid
+Omid = ko.getProfile().mid
+Pmid = kp.getProfile().mid
+Qmid = kq.getProfile().mid
+Rmid = kr.getProfile().mid
+Smid = ks.getProfile().mid
+Tmid = kt.getProfile().mid
 protectname = []
 protecturl = []
 protection = []
